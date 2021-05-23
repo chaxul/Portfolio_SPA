@@ -1,0 +1,106 @@
+<section id="cv">
+    <div class="container">
+        <h2><strong>Experience and Education</strong></h2>
+        <span class="bar-title mb-5"></span>
+        <div class="row">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>Education</strong></h4>
+
+                <ul class="timeline">
+                    <li>
+                        <h5><strong>Master of Science</strong> </h5>
+                        <em class="font-italic">Computer Engineering<br> California State University</em>
+                        <p class="year p-2 d-flex justify-content-center">01/2015 - 12/2017</p>
+                    </li>
+                    <li>
+                        <h5>Bachelor of Engineering</h5>
+                        <em class="font-italic">Computer Engineeering and Science <br> Gujarat TEchnological  University, India</em>
+                        <p class="year p-2 d-flex justify-content-center">07/2010 - 05/2014</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <h4><strong>Experiences</strong></h4>
+                <ul class="timeline">
+                    <li>
+                        <h5>Front-End Developer</h5>
+                        <em>Ernst & Young, San Antonio, TX</em>
+                        <div class="d-flex flex-row">
+                            <p class="year p-2 d-flex justify-content-center">01/2020 - 03/2021</p>
+                            <button (click)="detailOnClick('EY_Detail')" type="button" class="btn btn-primary">+
+                                Detail</button>
+                        </div>
+                        <p *ngIf="eyDetailShow">
+
+                            <strong>1:</strong> Took ownership of Front-End work and implemented complex currency, and transaction handling logic and features. <br>
+                            <strong>2:</strong> Worked with product owners to gather requirements from business stakeholders and create stories as required.<br>
+                            <strong>3:</strong> Developed microservice REST API which can communicate with each other and all the API are built with growth in mind<br>
+                            <strong>4:</strong> Set up bitbucket repository and bamboo build and deployment plans for a streamlined release process on push.<br>
+                            <strong>Technologies:</strong> Angular 7, Angular Materials, TypeScript, Java, MySql, Bitbucket
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Software Engineer</h5>
+                        <em>Intello Group, Inc, CA</em>
+                        <div class="d-flex flex-row">
+                            <p class="year p-2 d-flex justify-content-center">01/2019 - 12/2019</p>
+                            <button (click)="detailOnClick('Intello_Detail')" type="button" class="btn btn-primary">+
+                                Detail</button>
+                        </div>
+                        <p *ngIf="intelloDetailShow">
+                            <strong>1:</strong> Designed, Developed and Deployed analytic reporting real-time responsive dashboard with MVC Architecture which shows progress of every department<br>
+                            <strong>2:</strong> Used data from Excel and SQL server to integrate in power BI and Angular <br>
+                            <strong>3:</strong> Implemented and developed REST APIs to help in driving important technical solutions<br>
+                            <strong>4:</strong> Contributed to various phases of both Agile and SDLC life cycle.<br>
+                            <strong>Technologies:</strong> Angular 2, Angular Materials, Java8, Spring, MySql, Power BI
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Web Developer</h5>
+                        <em>HMPS Inc, Norwalk, CA</em>
+                        <div class="d-flex flex-row">
+                            <p class="year p-2 d-flex justify-content-center">05/2018 - 01/2019</p>
+                            <button (click)="detailOnClick('hmps_detail')" type="button" class="btn btn-primary">+
+                                Detail</button>
+                        </div>
+                        <p *ngIf="hmpsDetailShow">
+                            <strong>1:</strong> Successfully built Single-Page Applications with Angular 2, JavaScript, Typescript, and custom-built framework. <br>
+                            <strong>2:</strong> Worked closely with cross-functional teams to develop efficient and reliable products<br>
+                            <strong>3:</strong> Developed a dynamic and interactive website that ensured high traffic, page views, and enhancing user experience <br>
+                            <strong>4:</strong> Developed responsive web pages using Angular 2, JavaScript, Java, CSS, HTML5, jQuery and bootstrap 3 <br>
+                            <strong>Technologies:</strong> Angular 2, JavaScript, Java, HTML5, Bootstrap, MySql
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="container row">
+                    <div class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <h4><strong>Langues</strong></h4>
+                        <div class="noProgress langue">
+                            <span class=""><img src="assets/images/usa-flag.png" alt="usa-flag" style="width: 30px;"/><strong> English</strong></span>
+                        </div>
+
+                        <div class="noProgress langue">
+                            <span class=""><img src="assets/images/india-flag.png" alt="usa-flag" style="width: 30px;"/><strong> Hindi, Gujarati</strong></span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container row">
+                    <div class="mt-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <h4><strong>Hobbies</strong></h4>
+                        <ul style="margin-top: 20px;">
+                            <i class="fa fa-soccer-ball-o" style="font-size:24px"></i> Soccer <br/>
+                            <img src="assets/images/hike.png" style="width: 25px;" /> Hiking <br/>
+                            <img src="assets/images/travel.png" style="width: 25px;" /> Gaming <br/>
+                            <img src="assets/images/gaming.jpg" style="width: 25px;" /> Travelling
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
